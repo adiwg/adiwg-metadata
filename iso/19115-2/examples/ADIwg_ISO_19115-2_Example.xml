@@ -1,0 +1,3233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- core gmi based instance document ISO 19115-2 -->
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gst="http://www.isotc211.org/2005/gst" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi D:\Projects\ADIwg\Metadata_Data\Schema\NOAA_ISOBio\schema.xsd">
+
+   <gmd:fileIdentifier>
+      <gco:CharacterString>a2342cc0-e1db-0130-e0b7-080027a263b8</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng; USA</gco:CharacterString>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004"/>
+   </gmd:characterSet>
+   <gmd:parentIdentifier>
+      <gco:CharacterString>Biomonitoring of Environmental Status and Trends - Large Rivers Monitoring Network</gco:CharacterString>
+   </gmd:parentIdentifier>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005"/>
+   </gmd:hierarchyLevel>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="nonGeographicDataset" codeSpace="007"/>
+   </gmd:hierarchyLevel>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="attribute" codeSpace="001"/>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName>
+            <gco:CharacterString>Josh Bradley</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Data Manager</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:voice>
+                        <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:voice>
+                        <gco:CharacterString>808-555-1212</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                     </gmd:facsimile>
+                     <gmd:facsimile>
+                        <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Room 110</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Fairbanks</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>AK</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>99701</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>USA</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://arcticlcc.org</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:name>
+                        <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function/>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+               <gmd:contactInstructions/>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="002"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2013-08-07</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115-2</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:dataSetURI>
+      <gco:CharacterString>http://arcticlcc.org/projects/management/project-tracking-system</gco:CharacterString>
+   </gmd:dataSetURI>
+   <gmd:referenceSystemInfo xlink:title="World Geodetic System 1984 EPSG::4326" xlink:href="https://www.ngdc.noaa.gov/docucomp/2504d000-8345-11e1-b0c4-0800200c9a66"/>
+   <gmd:referenceSystemInfo xlink:title="North American Datum 1927 EPSG::4267" xlink:href="https://www.ngdc.noaa.gov/docucomp/32c8e7d0-95ed-11e0-aa80-0800200c9a66"/>
+   <gmd:referenceSystemInfo xlink:title="Mean High Water height EPSG::5868" xlink:href="https://www.ngdc.noaa.gov/docucomp/0916ce75-a087-46f8-933f-200353c9ffb8"/>
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extensionOnLineResource/>
+         <gmd:extendedElementInformation>
+            <gmd:MD_ExtendedElementInformation>
+               <gmd:name>
+                  <gco:CharacterString>Taxonomy System</gco:CharacterString>
+               </gmd:name>
+               <gmd:shortName>
+                  <gco:CharacterString>TaxonSys</gco:CharacterString>
+               </gmd:shortName>
+               <gmd:definition>
+                  <gco:CharacterString>Documentation of taxonomic sources, procedures, and treatments</gco:CharacterString>
+               </gmd:definition>
+               <gmd:obligation>
+                  <gmd:MD_ObligationCode>optional</gmd:MD_ObligationCode>
+               </gmd:obligation>
+               <gmd:dataType>
+                  <gmd:MD_DatatypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DatatypeCode" codeListValue="class" codeSpace="001"/>
+               </gmd:dataType>
+               <gmd:maximumOccurrence>
+                  <gco:CharacterString>1</gco:CharacterString>
+               </gmd:maximumOccurrence>
+               <gmd:parentEntity>
+                  <gco:CharacterString>MD_Identification</gco:CharacterString>
+               </gmd:parentEntity>
+               <gmd:rule>
+                  <gco:CharacterString>New Metadata section as a class to MD_Identification</gco:CharacterString>
+               </gmd:rule>
+               <gmd:rationale>
+                  <gco:CharacterString>The set of data elements contained within this class element represents an attempt to provide better documentation of taxonomic sources, procedures, and treatments.</gco:CharacterString>
+               </gmd:rationale>
+               <gmd:source>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>National Biological Information Infrastructure (NBII)</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName/>
+                     <gmd:contactInfo/>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:source>
+            </gmd:MD_ExtendedElementInformation>
+         </gmd:extendedElementInformation>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Project Tracking System</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2011-11-11</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:DateTime>2013-03-13T17:30:00-08:00</gco:DateTime>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="003"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:edition>
+                  <gco:CharacterString>version 1.2.0</gco:CharacterString>
+               </gmd:edition>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Josh Bradley</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Manager</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>808-555-1212</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                                 </gmd:facsimile>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Room 110</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99701</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99503</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="010"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+               <gmd:ISBN>
+                  <gco:CharacterString>HB12365.214</gco:CharacterString>
+               </gmd:ISBN>
+               <gmd:ISSN>
+                  <gco:CharacterString>0ab4-dd983c01</gco:CharacterString>
+               </gmd:ISSN>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>The Arctic LCC has developed a Project Tracking System(PTS) to assist with the management of projects. The PTS is used to track projects throughout all stages of development, from receipt of proposals through delivery of final products.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose>
+            <gco:CharacterString>The LAS files can be used to create DEMs and also to extract topographic data in software that does not support raster data. Other surface features can also be extracted with custom applications. LiDAR data has a wide range of uses such as earthquake hazard studies, hydrologic modeling, forestry, coastal engineering, roadway and pipeline engineering, flood plain mapping, wetland studies, geologic studies and a variety of analytical and cartographic projects.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:credit>
+            <gco:CharacterString>FEMA</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>Washington DNR and Lewis County</gco:CharacterString>
+         </gmd:credit>
+         <gmd:credit>
+            <gco:CharacterString>Puget Sound LiDAR Consortium (PSLC) - The PSLC is supported by the Puget Sound Regional Council, the National Aeronautical and Space Administration (NASA), the United States Geological Survey (USGS) and numerous partners in local, state, and tribal government.</gco:CharacterString>
+         </gmd:credit>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_ProgressCode" codeListValue="onGoing" codeSpace="004"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Josh Bradley</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>Data Manager</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:voice>
+                              <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:voice>
+                              <gco:CharacterString>808-555-1212</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                           </gmd:facsimile>
+                           <gmd:facsimile>
+                              <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Room 110</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Fairbanks</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>AK</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>99701</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>USA</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://arcticlcc.org</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:name>
+                              <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                           </gmd:name>
+                           <gmd:description>
+                              <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:function/>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                     <gmd:contactInstructions/>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="002"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="fortnightly" codeSpace="004"/>
+               </gmd:maintenanceAndUpdateFrequency>
+               <gmd:maintenanceNote/>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="annually" codeSpace="008"/>
+               </gmd:maintenanceAndUpdateFrequency>
+               <gmd:maintenanceNote>
+                  <gco:CharacterString>Updates to data are generally in available November after the season's field data has been validated</gco:CharacterString>
+               </gmd:maintenanceNote>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+               <gmd:maintenanceNote>
+                  <gco:CharacterString>Test of missing frequency code</gco:CharacterString>
+               </gmd:maintenanceNote>
+               <gmd:maintenanceNote>
+                  <gco:CharacterString>Test of multiple notes</gco:CharacterString>
+               </gmd:maintenanceNote>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview xlink:href="http://aoos.org/aoos-data-resources/bowhead_images2010_0114.jpg">
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>allRecs_callCounts_bowhead_2010.jpg</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>This image is a spectraplot visualizing the density of Bowhead whale calls in the Northeast Chukchi Sea, AMAR recorder locations, and industry lease areas.</gco:CharacterString>
+               </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>JPEG</gco:CharacterString>
+               </gmd:fileType>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>cross_section_perc_sommer_2010.png</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>.</gco:CharacterString>
+               </gmd:fileDescription>
+               <gmd:fileType/>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>pln40_perc_2010_01.png</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription/>
+               <gmd:fileType>
+                  <gco:CharacterString>PNG</gco:CharacterString>
+               </gmd:fileType>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>pln40_spec_summer_2010.png</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription/>
+               <gmd:fileType/>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>ExtJS</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>4.0.7</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>PostgreSQL</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="unknown"/>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name gco:nilReason="missing"/>
+               <gmd:version>
+                  <gco:CharacterString>5.3</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Oceans &gt; Ocean temperature &gt; Thermocline</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Oceans &gt; Ocean Temperature &gt; Water Temperature</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Oceans &gt; Ocean Heat Budget &gt; Heat Flux</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005"/>
+               </gmd:type>
+               <gmd:thesaurusName xlink:href="http://gcmdservices.gsfc.nasa.gov/static/kms/sciencekeywords/sciencekeywords.csv">
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/Global Change Master Directory (GCMD) Earth Science Keywords.</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2013-09-19</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="003"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 8.0.0.0.0</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Josh Bradley</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>Data Manager</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>808-555-1212</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                                       </gmd:facsimile>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Room 110</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>AK</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99701</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function/>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName/>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Anchorage</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>AK</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99503</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function/>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner" codeSpace="003"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:ISBN>
+                        <gco:CharacterString>HB12365.214</gco:CharacterString>
+                     </gmd:ISBN>
+                     <gmd:ISSN>
+                        <gco:CharacterString>0ab4-dd983c01</gco:CharacterString>
+                     </gmd:ISSN>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>In Situ/Laboratory Instruments &gt; Temperature/Humidity Sensors &gt; Thermometers</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument" codeSpace="ADIwg-001"/>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>NASA/Global Change Master Directory (GCMD) Earth Science Keywords Version 7.0.0.</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date gco:nilReason="missing"/>
+                     <gmd:edition/>
+                     <gmd:citedResponsibleParty/>
+                     <gmd:ISBN/>
+                     <gmd:ISSN/>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>thermocline</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea surface temperature</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type/>
+               <gmd:thesaurusName/>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceSpecificUsage>
+            <gmd:MD_Usage>
+               <gmd:specificUsage>
+                  <gco:CharacterString>Developed for land use planning.</gco:CharacterString>
+               </gmd:specificUsage>
+               <gmd:userDeterminedLimitations>
+                  <gco:CharacterString>Not suitable for use for navigation.</gco:CharacterString>
+               </gmd:userDeterminedLimitations>
+               <gmd:userContactInfo>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Manager</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone/>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Room 110</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99701</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource/>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="010"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:userContactInfo>
+               <gmd:userContactInfo>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Manager</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone/>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Room 110</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99701</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource/>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author" codeSpace="011"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:userContactInfo>
+            </gmd:MD_Usage>
+         </gmd:resourceSpecificUsage>
+         <gmd:resourceSpecificUsage>
+            <gmd:MD_Usage>
+               <gmd:specificUsage>
+                  <gco:CharacterString>Bathymetry datasets developed for modeling physical oceanographic conditions in the Barrow Straight.</gco:CharacterString>
+               </gmd:specificUsage>
+               <gmd:userDeterminedLimitations/>
+               <gmd:userContactInfo>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Josh Bradley</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Manager</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>808-555-1212</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                                 </gmd:facsimile>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Room 110</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99701</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="002"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:userContactInfo>
+            </gmd:MD_Usage>
+         </gmd:resourceSpecificUsage>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>not for suitable for navigation</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:useLimitation>
+                  <gco:CharacterString>draft version</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:useLimitation>
+                  <gco:CharacterString>not intended for general use</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:useLimitation>
+                  <gco:CharacterString>don't be a jerk</gco:CharacterString>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="patentPending" codeSpace="003"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted" codeSpace="007"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted" codeSpace="007"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Legally barred from use for navigation.</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints>
+                  <gco:CharacterString>Access Constraints: No one else. Use Constraints: None</gco:CharacterString>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright" codeSpace="001"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="patent" codeSpace="002"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="patentPending" codeSpace="003"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="trademark" codeSpace="004"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" codeSpace="005"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights" codeSpace="006"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted" codeSpace="007"/>
+               </gmd:accessConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints/>
+               <gmd:otherConstraints/>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" codeSpace="001"/>
+               </gmd:classification>
+               <gmd:userNote>
+                  <gco:CharacterString>security clearance not required</gco:CharacterString>
+               </gmd:userNote>
+               <gmd:classificationSystem>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:classificationSystem>
+               <gmd:handlingDescription>
+                  <gco:CharacterString>this is how to handle things...</gco:CharacterString>
+               </gmd:handlingDescription>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="INVALID CLASSIFICATION CODE" codeSpace="999"/>
+               </gmd:classification>
+               <gmd:userNote/>
+               <gmd:classificationSystem/>
+               <gmd:handlingDescription/>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_SecurityConstraints>
+               <gmd:classification>
+                  <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="secret" codeSpace="004"/>
+               </gmd:classification>
+               <gmd:userNote>
+                  <gco:CharacterString>shhhhh</gco:CharacterString>
+               </gmd:userNote>
+               <gmd:classificationSystem/>
+               <gmd:handlingDescription/>
+            </gmd:MD_SecurityConstraints>
+         </gmd:resourceConstraints>
+         <gmd:taxonomy>
+            <gmd:MD_TaxonSys>
+               <gmd:classSys>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Otter Record Survey</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2000</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002"/>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition/>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName/>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Anchorage</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>AK</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99503</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function/>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="010"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:ISBN/>
+                     <gmd:ISSN/>
+                  </gmd:CI_Citation>
+               </gmd:classSys>
+               <gmd:taxongen/>
+               <gmd:idref gco:nilReason="unknown"/>
+               <gmd:obs>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Josh Bradley</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Manager</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>808-555-1212</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                                 </gmd:facsimile>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Room 110</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99701</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:obs>
+               <gmd:obs>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName/>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName/>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>AK</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99503</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:obs>
+               <gmd:taxonpro gco:nilReason="missing"/>
+               <gmd:voucher>
+                  <gmd:MD_Vouchers>
+                     <gmd:specimen>
+                        <gco:CharacterString>weathered skull found on beach</gco:CharacterString>
+                     </gmd:specimen>
+                     <gmd:reposit>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName/>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Anchorage</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>AK</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99503</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function/>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="010"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:reposit>
+                  </gmd:MD_Vouchers>
+               </gmd:voucher>
+               <gmd:taxonCl>
+                  <gmd:MD_TaxonCl>
+                     <gmd:common/>
+                     <gmd:taxonrn>
+                        <gco:CharacterString>Kingdom</gco:CharacterString>
+                     </gmd:taxonrn>
+                     <gmd:taxonrv>
+                        <gco:CharacterString>Animalia</gco:CharacterString>
+                     </gmd:taxonrv>
+                     <gmd:taxonCl>
+                        <gmd:MD_TaxonCl>
+                           <gmd:common/>
+                           <gmd:taxonrn>
+                              <gco:CharacterString>Phylum</gco:CharacterString>
+                           </gmd:taxonrn>
+                           <gmd:taxonrv>
+                              <gco:CharacterString>Chordata</gco:CharacterString>
+                           </gmd:taxonrv>
+                           <gmd:taxonCl>
+                              <gmd:MD_TaxonCl>
+                                 <gmd:common/>
+                                 <gmd:taxonrn>
+                                    <gco:CharacterString>Subphylum</gco:CharacterString>
+                                 </gmd:taxonrn>
+                                 <gmd:taxonrv>
+                                    <gco:CharacterString>Vertebrata</gco:CharacterString>
+                                 </gmd:taxonrv>
+                                 <gmd:taxonCl>
+                                    <gmd:MD_TaxonCl>
+                                       <gmd:common/>
+                                       <gmd:taxonrn>
+                                          <gco:CharacterString>Class</gco:CharacterString>
+                                       </gmd:taxonrn>
+                                       <gmd:taxonrv>
+                                          <gco:CharacterString>Mammalia</gco:CharacterString>
+                                       </gmd:taxonrv>
+                                       <gmd:taxonCl>
+                                          <gmd:MD_TaxonCl>
+                                             <gmd:common/>
+                                             <gmd:taxonrn>
+                                                <gco:CharacterString>Subclass</gco:CharacterString>
+                                             </gmd:taxonrn>
+                                             <gmd:taxonrv>
+                                                <gco:CharacterString>Theria</gco:CharacterString>
+                                             </gmd:taxonrv>
+                                             <gmd:taxonCl>
+                                                <gmd:MD_TaxonCl>
+                                                   <gmd:common/>
+                                                   <gmd:taxonrn>
+                                                      <gco:CharacterString>Infraclass</gco:CharacterString>
+                                                   </gmd:taxonrn>
+                                                   <gmd:taxonrv>
+                                                      <gco:CharacterString>Eutheria</gco:CharacterString>
+                                                   </gmd:taxonrv>
+                                                   <gmd:taxonCl>
+                                                      <gmd:MD_TaxonCl>
+                                                         <gmd:common/>
+                                                         <gmd:taxonrn>
+                                                            <gco:CharacterString>Order</gco:CharacterString>
+                                                         </gmd:taxonrn>
+                                                         <gmd:taxonrv>
+                                                            <gco:CharacterString>Carnivora</gco:CharacterString>
+                                                         </gmd:taxonrv>
+                                                         <gmd:taxonCl>
+                                                            <gmd:MD_TaxonCl>
+                                                               <gmd:common/>
+                                                               <gmd:taxonrn>
+                                                                  <gco:CharacterString>Suborder</gco:CharacterString>
+                                                               </gmd:taxonrn>
+                                                               <gmd:taxonrv>
+                                                                  <gco:CharacterString>Caniformia</gco:CharacterString>
+                                                               </gmd:taxonrv>
+                                                               <gmd:taxonCl>
+                                                                  <gmd:MD_TaxonCl>
+                                                                     <gmd:common/>
+                                                                     <gmd:taxonrn>
+                                                                        <gco:CharacterString>Family</gco:CharacterString>
+                                                                     </gmd:taxonrn>
+                                                                     <gmd:taxonrv>
+                                                                        <gco:CharacterString>Mustilidae</gco:CharacterString>
+                                                                     </gmd:taxonrv>
+                                                                     <gmd:taxonCl>
+                                                                        <gmd:MD_TaxonCl>
+                                                                           <gmd:common/>
+                                                                           <gmd:taxonrn>
+                                                                              <gco:CharacterString>Subfamily</gco:CharacterString>
+                                                                           </gmd:taxonrn>
+                                                                           <gmd:taxonrv>
+                                                                              <gco:CharacterString>Lutrinae</gco:CharacterString>
+                                                                           </gmd:taxonrv>
+                                                                           <gmd:taxonCl>
+                                                                              <gmd:MD_TaxonCl>
+                                                                                 <gmd:common/>
+                                                                                 <gmd:taxonrn>
+                                                                                    <gco:CharacterString>Genus</gco:CharacterString>
+                                                                                 </gmd:taxonrn>
+                                                                                 <gmd:taxonrv>
+                                                                                    <gco:CharacterString>Enhydra</gco:CharacterString>
+                                                                                 </gmd:taxonrv>
+                                                                                 <gmd:taxonCl>
+                                                                                    <gmd:MD_TaxonCl>
+                                                                                       <gmd:common>
+                                                                                          <gco:CharacterString>Sea Otter</gco:CharacterString>
+                                                                                       </gmd:common>
+                                                                                       <gmd:taxonrn>
+                                                                                          <gco:CharacterString>Species</gco:CharacterString>
+                                                                                       </gmd:taxonrn>
+                                                                                       <gmd:taxonrv>
+                                                                                          <gco:CharacterString>Enhydra lutris</gco:CharacterString>
+                                                                                       </gmd:taxonrv>
+                                                                                       <gmd:taxonCl>
+                                                                                          <gmd:MD_TaxonCl>
+                                                                                             <gmd:common>
+                                                                                                <gco:CharacterString>Southern Sea Otter</gco:CharacterString>
+                                                                                             </gmd:common>
+                                                                                             <gmd:taxonrn>
+                                                                                                <gco:CharacterString>Subspecies</gco:CharacterString>
+                                                                                             </gmd:taxonrn>
+                                                                                             <gmd:taxonrv>
+                                                                                                <gco:CharacterString>Enhydra</gco:CharacterString>
+                                                                                             </gmd:taxonrv>
+                                                                                          </gmd:MD_TaxonCl>
+                                                                                       </gmd:taxonCl>
+                                                                                    </gmd:MD_TaxonCl>
+                                                                                 </gmd:taxonCl>
+                                                                              </gmd:MD_TaxonCl>
+                                                                           </gmd:taxonCl>
+                                                                        </gmd:MD_TaxonCl>
+                                                                     </gmd:taxonCl>
+                                                                  </gmd:MD_TaxonCl>
+                                                               </gmd:taxonCl>
+                                                            </gmd:MD_TaxonCl>
+                                                         </gmd:taxonCl>
+                                                      </gmd:MD_TaxonCl>
+                                                   </gmd:taxonCl>
+                                                </gmd:MD_TaxonCl>
+                                             </gmd:taxonCl>
+                                          </gmd:MD_TaxonCl>
+                                       </gmd:taxonCl>
+                                    </gmd:MD_TaxonCl>
+                                 </gmd:taxonCl>
+                              </gmd:MD_TaxonCl>
+                           </gmd:taxonCl>
+                        </gmd:MD_TaxonCl>
+                     </gmd:taxonCl>
+                  </gmd:MD_TaxonCl>
+               </gmd:taxonCl>
+            </gmd:MD_TaxonSys>
+         </gmd:taxonomy>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="textTable" codeSpace="003"/>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" codeSpace="002"/>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="tin" codeSpace="004"/>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:equivalentScale>
+                  <gmd:MD_RepresentativeFraction>
+                     <gmd:denominator>
+                        <gco:Integer>45000</gco:Integer>
+                     </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+               </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:distance>
+                  <gco:Distance uom="kilometers">45</gco:Distance>
+               </gmd:distance>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gco:CharacterString>eng; USA</gco:CharacterString>
+         </gmd:language>
+         <gmd:language>
+            <gco:CharacterString>spa; Spanish; Castilian</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:environmentDescription>
+            <gco:CharacterString>Processed datafiles created in a Windows 7 environment, using R x64 2.15.1, Kepler 2.3, pgAdminIII and Postgres 9.1, and ArcInfo 10.2</gco:CharacterString>
+         </gmd:environmentDescription>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>Single Points, multiple elements</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:Point srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="point1">
+                           <gml:metaDataProperty/>
+                           <gml:description>Sea buoy BS7882 location</gml:description>
+                           <gml:identifier codeSpace="http://www.gtnp.org" xsi:type="gml:CodeWithAuthorityType">PNT-12345</gml:identifier>
+                           <gml:name>BS7882</gml:name>
+                           <gml:coordinates>-164.87402357161, 59.165040850639 </gml:coordinates>
+                        </gml:Point>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:Point srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="point100">
+                           <gml:metaDataProperty/>
+                           <gml:description>Sea buoy BS999 location</gml:description>
+                           <gml:identifier codeSpace="http://www.gtnp.org" xsi:type="gml:CodeWithAuthorityType">PNT-12346</gml:identifier>
+                           <gml:name>BS999</gml:name>
+                           <gml:coordinates>-164.87302357161, 59.145040850639 </gml:coordinates>
+                        </gml:Point>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+               <gmd:verticalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>List of Points</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-164.88550989974</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-164.86353724349</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>59.159712874412</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>59.169368826866</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:Point srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="pointlist1">
+                           <gml:metaDataProperty/>
+                           <gml:description>These points have shared attributes</gml:description>
+                           <gml:name>Fishin' spots</gml:name>
+                           <gml:coordinates>-164.87402357161, 59.165040850639 -164.87502357161, 59.164040850639 -164.88387053359, 59.161207759012 </gml:coordinates>
+                        </gml:Point>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+               <gmd:verticalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>List of Points with attributes</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-164.88550989974</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-164.86353724349</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>59.159712874412</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>59.169368826866</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:MultiGeometry gml:id="multiPt1">
+                           <gml:description>represents GML MultiGeometry</gml:description>
+                           <gml:name>A FeatureCollection(points)</gml:name>
+                           <gml:geometryMembers>
+                              <gml:Point srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="point010">
+                                 <gml:metaDataProperty>
+                                    <gml:GenericMetaData>
+                                       <gco:Date>2011-09-15</gco:Date>
+                                       <gco:Date>2012-08-14</gco:Date>
+                                    </gml:GenericMetaData>
+                                 </gml:metaDataProperty>
+                                 <gml:description>point valid on or after a specific date</gml:description>
+                                 <gml:identifier codeSpace="http://www.gtnp.org" xsi:type="gml:CodeWithAuthorityType">PNT-12345</gml:identifier>
+                                 <gml:name>BS7882</gml:name>
+                                 <gml:coordinates>-164.88550989974, 59.179712874412 </gml:coordinates>
+                              </gml:Point>
+                              <gml:Point srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="point012">
+                                 <gml:metaDataProperty>
+                                    <gml:GenericMetaData>
+                                       <gml:TimeInstant gml:id="ID_001">
+                                          <gml:description>ground condition</gml:description>
+                                          <gml:timePosition>2012-07-15T08:05:00-09:00</gml:timePosition>
+                                       </gml:TimeInstant>
+                                    </gml:GenericMetaData>
+                                 </gml:metaDataProperty>
+                                 <gml:description>point valid on or after a specific date</gml:description>
+                                 <gml:name/>
+                                 <gml:coordinates>-164.87550989974, 59.209712874412 </gml:coordinates>
+                              </gml:Point>
+                              <gml:Point srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="point013">
+                                 <gml:metaDataProperty>
+                                    <gml:GenericMetaData>
+                                       <gml:TimePeriod gml:id="ID_002">
+                                          <gml:description/>
+                                          <gml:beginPosition>2013-08-24T08:05:00</gml:beginPosition>
+                                          <gml:endPosition>2013-10-04T00:00:00</gml:endPosition>
+                                       </gml:TimePeriod>
+                                    </gml:GenericMetaData>
+                                 </gml:metaDataProperty>
+                                 <gml:description>point valid over a time period</gml:description>
+                                 <gml:name/>
+                                 <gml:coordinates>-164.89650989974, 59.249712874412 </gml:coordinates>
+                              </gml:Point>
+                           </gml:geometryMembers>
+                        </gml:MultiGeometry>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+               <gmd:verticalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>Single Line</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="line1">
+                           <gml:metaDataProperty/>
+                           <gml:description>Coordinates of ship track</gml:description>
+                           <gml:name>Summer 2012 Bering Sea Survey Track</gml:name>
+                           <gml:coordinates>-157.0702509848438, 71.10933136359692 -154.6526281903968, 70.40820968995817 -150.7617407589279, 70.02201223417278 -150.8371960238169, 70.43210058905156 -152.2049884417053, 70.87235618158296 -154.5708878990441, 71.04082324476376 </gml:coordinates>
+                        </gml:LineString>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+               <gmd:verticalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>List of Lines</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-157.07025098484</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-150.76174075893</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>70.022012234173</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>71.109331363597</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:MultiGeometry gml:id="linelist1">
+                           <gml:description>These lines have shared attributes</gml:description>
+                           <gml:name>Lines</gml:name>
+                           <gml:geometryMembers>
+                              <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="3" gml:id="ID_003">
+                                 <gml:metaDataProperty/>
+                                 <gml:description/>
+                                 <gml:name/>
+                                 <gml:coordinates>-157.0702509848438, 71.10933136359692, 35.2 -154.6526281903968, 70.40820968995817, 68.1 -150.7617407589279, 70.02201223417278, 84.7 -150.8371960238169, 70.43210058905156, 125.8 -152.2049884417053, 70.87235618158296, 116.0 </gml:coordinates>
+                              </gml:LineString>
+                              <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="3" gml:id="ID_004">
+                                 <gml:metaDataProperty/>
+                                 <gml:description/>
+                                 <gml:name/>
+                                 <gml:coordinates>-154.5708878990441, 71.04082324476376, 36.9 -150.7617407589279, 70.02201223417278, 84.7 -154.6526281903968, 70.40820968995817, 68.1 -157.0702509848438, 71.10933136359692, 35.2 </gml:coordinates>
+                              </gml:LineString>
+                              <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="3" gml:id="ID_005">
+                                 <gml:metaDataProperty/>
+                                 <gml:description/>
+                                 <gml:name/>
+                                 <gml:coordinates>-150.7617407589279, 70.02201223417278, 84.7 -154.6526281903968, 70.40820968995817, 68.1 </gml:coordinates>
+                              </gml:LineString>
+                           </gml:geometryMembers>
+                        </gml:MultiGeometry>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+               <gmd:verticalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>List of Lines with attributes</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-157.07025098484</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-150.76174075893</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>70.022012234173</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>71.109331363597</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:MultiGeometry gml:id="multiline1">
+                           <gml:description>represents GML MultiGeometry</gml:description>
+                           <gml:name>A FeatureCollection(lines)</gml:name>
+                           <gml:geometryMembers>
+                              <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="3" gml:id="multiLine001">
+                                 <gml:metaDataProperty>
+                                    <gml:GenericMetaData>
+                                       <gco:Date>2011-09-15</gco:Date>
+                                       <gco:Date>2012-08-13</gco:Date>
+                                       <gco:Date>2013-08-05</gco:Date>
+                                    </gml:GenericMetaData>
+                                 </gml:metaDataProperty>
+                                 <gml:description>First line in multiline object</gml:description>
+                                 <gml:name>Josh</gml:name>
+                                 <gml:coordinates>-157.0702509848438, 71.10933136359692, 35.2 -154.6526281903968, 70.40820968995817, 68.1 -150.7617407589279, 70.02201223417278, 84.7 -150.8371960238169, 70.43210058905156, 125.8 -152.2049884417053, 70.87235618158296, 116.0 </gml:coordinates>
+                              </gml:LineString>
+                              <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="3" gml:id="multiLine002">
+                                 <gml:metaDataProperty>
+                                    <gml:GenericMetaData>
+                                       <gco:Date>2011-09-15</gco:Date>
+                                       <gco:Date>2012-08-13</gco:Date>
+                                       <gco:Date>2013-08-05</gco:Date>
+                                       <gml:TimeInstant gml:id="ti-035">
+                                          <gml:description>the moment I realized I was lost</gml:description>
+                                          <gml:timePosition>1968-12-15T08:05:00.000+09:00</gml:timePosition>
+                                       </gml:TimeInstant>
+                                    </gml:GenericMetaData>
+                                 </gml:metaDataProperty>
+                                 <gml:description>Second line in multiline object</gml:description>
+                                 <gml:name>Chris</gml:name>
+                                 <gml:coordinates>-154.5708878990441, 71.04082324476376, 36.9 -150.7617407589279, 70.02201223417278, 84.7 -154.6526281903968, 70.40820968995817, 68.1 -157.0702509848438, 71.10933136359692, 35.2 </gml:coordinates>
+                              </gml:LineString>
+                              <gml:LineString srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="3" gml:id="multiLine003">
+                                 <gml:metaDataProperty/>
+                                 <gml:description>Third line in multiline object</gml:description>
+                                 <gml:name>Allison</gml:name>
+                                 <gml:coordinates>-150.7617407589279, 70.02201223417278, 84.7 -154.6526281903968, 70.40820968995817, 68.1 </gml:coordinates>
+                              </gml:LineString>
+                           </gml:geometryMembers>
+                        </gml:MultiGeometry>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement/>
+               <gmd:verticalElement/>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>BBOX only</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-148.1764</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-132.821</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>57.01428</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>60.917</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="ti-001">
+                           <gml:description>ground condition</gml:description>
+                           <gml:timePosition>2012-07-15T08:05:00.000+09:00</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>-500</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>0</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::6357" xlink:title="NAVD88 depth"/>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>Polygon with BBOX</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-148.1764</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-132.821</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>57.01428</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>60.917</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:polygon>
+                        <gml:Polygon srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="unique1">
+                           <gml:description>Gulf of Alaska</gml:description>
+                           <gml:name/>
+                           <gml:exterior>
+                              <gml:LinearRing>
+                                 <gml:coordinates>-139.388046, 59.828561 -140.882186, 59.839602 -143.101425, 60.22375 -147.056503, 60.829147 -148.902206, 59.982807 -148.792343, 57.944338 -134.576034, 57.663361 </gml:coordinates>
+                              </gml:LinearRing>
+                           </gml:exterior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-97.067240989074</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-80.807475364074</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>18.556394455134</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>29.366941330134</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>false</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:polygon>
+                        <gml:Polygon srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="unique101">
+                           <gml:description>Gulf of Mexico</gml:description>
+                           <gml:name/>
+                           <gml:exterior>
+                              <gml:LinearRing>
+                                 <gml:coordinates>-84.059428489074, 29.366941330134 -97.067240989074, 28.048581955134 -95.397319114074, 18.556394455134 -80.895365989074, 24.620847580134 -80.807475364074, 24.708738205134 -84.059428489074, 29.366941330134 </gml:coordinates>
+                              </gml:LinearRing>
+                           </gml:exterior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="tp-001">
+                           <gml:description>Ground Condition</gml:description>
+                           <gml:beginPosition>1987-05-16T16:05:00</gml:beginPosition>
+                           <gml:endPosition>2011-12-01T00:00:00</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="tp-101">
+                           <gml:description>Below Ground Condition</gml:description>
+                           <gml:beginPosition>1987-08-13T16:05:00</gml:beginPosition>
+                           <gml:endPosition>2012-12-12T00:00:00</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>0</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>1000</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::5703" xlink:title="NAVD88 height"/>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>1500</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>0</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:crs:EPSG::6357" xlink:title="NAVD88 depth"/>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:description>
+                  <gco:CharacterString>A feature collection with just polygons</gco:CharacterString>
+               </gmd:description>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-149.89603182812</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-149.87405917187</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>61.215716023773</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>61.225371976227</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode gco:nilReason="inapplicable"/>
+                     <gmd:polygon>
+                        <gml:MultiGeometry gml:id="unique2">
+                           <gml:description>represents GML MultiGeometry</gml:description>
+                           <gml:name>A FeatureCollection(polygons)</gml:name>
+                           <gml:geometryMembers>
+                              <gml:Polygon srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="unique3">
+                                 <gml:description>Boundary of area in downtown Anchorage where sampling occurred</gml:description>
+                                 <gml:name>Buttress Park sampling location</gml:name>
+                                 <gml:exterior>
+                                    <gml:LinearRing>
+                                       <gml:coordinates>-149.880796, 61.21988 -149.880625, 61.221305 -149.889386, 61.221346 -149.880796, 61.21988 </gml:coordinates>
+                                    </gml:LinearRing>
+                                 </gml:exterior>
+                                 <gml:interior>
+                                    <gml:LinearRing>
+                                       <gml:coordinates>-149.8807, 61.2199 -149.880627, 61.2213 -149.8809, 61.2213 -149.8807, 61.2199 </gml:coordinates>
+                                    </gml:LinearRing>
+                                 </gml:interior>
+                                 <gml:interior>
+                                    <gml:LinearRing>
+                                       <gml:coordinates>-149.8893, 61.2213 -149.889382, 61.221345 -149.889382, 61.221445 -149.8893, 61.2213 </gml:coordinates>
+                                    </gml:LinearRing>
+                                 </gml:interior>
+                              </gml:Polygon>
+                              <gml:Polygon srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="unique4">
+                                 <gml:description>Area where sampling equipment was stored, no sampling occurred (Note:includesData should be ignored here. Would need to move this feature into another geographicElement.)</gml:description>
+                                 <gml:name>Equipment staging area</gml:name>
+                                 <gml:exterior>
+                                    <gml:LinearRing>
+                                       <gml:coordinates>-149.888221, 61.219643 -149.889466, 61.219643 -149.889251, 61.219973 -149.887835, 61.219952 -149.888221, 61.219643 </gml:coordinates>
+                                    </gml:LinearRing>
+                                 </gml:exterior>
+                              </gml:Polygon>
+                           </gml:geometryMembers>
+                        </gml:MultiGeometry>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="ti-002">
+                           <gml:description>below ground condition</gml:description>
+                           <gml:timePosition>2012-07-15T08:05:00.000+09:00</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="ti-003">
+                           <gml:description>below ground condition</gml:description>
+                           <gml:timePosition>2012-08-16T08:06:00.000+09:00</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="tp-002">
+                           <gml:description/>
+                           <gml:beginPosition>2013-08-24T08:05:00</gml:beginPosition>
+                           <gml:endPosition>2013-10-04T00:00:00</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="tp-004">
+                           <gml:description>The best days of my life</gml:description>
+                           <gml:beginPosition>2010-08-24T08:05:00</gml:beginPosition>
+                           <gml:endPosition>2014-10-04T00:00:00</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>60.5</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>110.68</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS xlink:href="http://www.epsg-registry.org/export.htm?gml=urn:ogc:def:axis-name:EPSG::9904" xlink:title="NAVD88 height (ftUS)"/>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation>
+            <gco:CharacterString>A footprint of this data set may be viewed in Google Earth at: &lt;ftp://ftp.csc.noaa.gov/pub/crs/beachmap/qa_docs/wa/pslc2012/wa2012_pslc_chehalis_footprint.KMZ&gt; A Lidar Report from the vendor for this data set may be viewed here: &lt;ftp://ftp.csc.noaa.gov/pub/crs/beachmap/qa_docs/wa/pslc2012/wa2012_pslc_chehalis_lidarreport.pdf&gt;</gco:CharacterString>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Chris Turner</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Axiom Consulting &amp; Design</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Librarian</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-555-1234</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>office: 907-555-6543</gco:CharacterString>
+                                 </gmd:facsimile>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>alt: 1-800-598-5571</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>523 W 8th Ave</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Suite 104</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Alaska</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99501</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>chris@axiomalaska.com</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>theotherchris@axiomalaska.com</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://axiomalaska.com</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Axiom Consulting &amp; Design</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for Axiom Consulting and Design</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="002"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>0.00USD</gco:CharacterString>
+                     </gmd:fees>
+                     <gmd:plannedAvailableDateTime>
+                        <gco:DateTime>2013-06-21T00:00:00-08:00</gco:DateTime>
+                     </gmd:plannedAvailableDateTime>
+                     <gmd:orderingInstructions>
+                        <gco:CharacterString>Call 555-1212 and yell at the operator</gco:CharacterString>
+                     </gmd:orderingInstructions>
+                     <gmd:turnaround>
+                        <gco:CharacterString>up to 3 hours</gco:CharacterString>
+                     </gmd:turnaround>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributionOrderProcess>
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>3.00USD</gco:CharacterString>
+                     </gmd:fees>
+                     <gmd:plannedAvailableDateTime/>
+                     <gmd:orderingInstructions/>
+                     <gmd:turnaround>
+                        <gco:CharacterString>immediate</gco:CharacterString>
+                     </gmd:turnaround>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format>
+                     <gmd:name>
+                        <gco:CharacterString>netCDF</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version>
+                        <gco:CharacterString>4.0</gco:CharacterString>
+                     </gmd:version>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format>
+                     <gmd:name>
+                        <gco:CharacterString>Excel Spreadsheet</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version>
+                        <gco:CharacterString>xlsx</gco:CharacterString>
+                     </gmd:version>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format>
+                     <gmd:name>
+                        <gco:CharacterString>CSV</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version gco:nilReason="unknown"/>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+               <gmd:distributorTransferOptions>
+                  <gmd:MD_DigitalTransferOptions>
+                     <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://aoos.org/aoos-data-resources</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:name>
+                              <gco:CharacterString>AOOS Data Resources</gco:CharacterString>
+                           </gmd:name>
+                           <gmd:description>
+                              <gco:CharacterString>This page provides links to interactive maps and data discovery tools.</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:function>
+                              <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" codeSpace="002"/>
+                           </gmd:function>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onLine>
+                     <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://aoos.org/fake_resource_location</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:name/>
+                           <gmd:description/>
+                           <gmd:function/>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onLine>
+                     <gmd:offLine>
+                        <gmd:MD_Medium>
+                           <gmd:name>
+                              <gmd:MD_MediumNameCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MediumNameCode" codeListValue="dvd" codeSpace="002"/>
+                           </gmd:name>
+                           <gmd:mediumFormat>
+                              <gmd:MD_MediumFormatCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MediumFormatCode" codeListValue="iso9660" codeSpace="004"/>
+                           </gmd:mediumFormat>
+                           <gmd:mediumNote>
+                              <gco:CharacterString>To receive a dvd in the mail, contact the distributor POC.</gco:CharacterString>
+                           </gmd:mediumNote>
+                        </gmd:MD_Medium>
+                     </gmd:offLine>
+                  </gmd:MD_DigitalTransferOptions>
+               </gmd:distributorTransferOptions>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName>
+                        <gco:CharacterString>Sirhc Renrut</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Moixa Designs and Consulting</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:positionName>
+                        <gco:CharacterString>Data Wrangler</gco:CharacterString>
+                     </gmd:positionName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:phone>
+                              <gmd:CI_Telephone>
+                                 <gmd:voice>
+                                    <gco:CharacterString>office: 907-458-8765</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:voice>
+                                    <gco:CharacterString>mobile: 907-567-1234</gco:CharacterString>
+                                 </gmd:voice>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>office: 907-567-6543</gco:CharacterString>
+                                 </gmd:facsimile>
+                                 <gmd:facsimile>
+                                    <gco:CharacterString>alt: 1-800-598-5571</gco:CharacterString>
+                                 </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                           </gmd:phone>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>532 W 8th Ave</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:deliveryPoint>
+                                    <gco:CharacterString>Suite 401</gco:CharacterString>
+                                 </gmd:deliveryPoint>
+                                 <gmd:city>
+                                    <gco:CharacterString>Anchorage</gco:CharacterString>
+                                 </gmd:city>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>Alaska</gco:CharacterString>
+                                 </gmd:administrativeArea>
+                                 <gmd:postalCode>
+                                    <gco:CharacterString>99501</gco:CharacterString>
+                                 </gmd:postalCode>
+                                 <gmd:country>
+                                    <gco:CharacterString>USA</gco:CharacterString>
+                                 </gmd:country>
+                                 <gmd:electronicMailAddress>
+                                    <gco:CharacterString>sirhc@moixaalaska.com</gco:CharacterString>
+                                 </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                           <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                 <gmd:linkage>
+                                    <gmd:URL>http://moixaalaska.com</gmd:URL>
+                                 </gmd:linkage>
+                                 <gmd:name>
+                                    <gco:CharacterString>Moixa Design and Consulting</gco:CharacterString>
+                                 </gmd:name>
+                                 <gmd:description>
+                                    <gco:CharacterString>Website for Moixa Design and Consulting</gco:CharacterString>
+                                 </gmd:description>
+                                 <gmd:function/>
+                              </gmd:CI_OnlineResource>
+                           </gmd:onlineResource>
+                           <gmd:contactInstructions/>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess/>
+               <gmd:distributorFormat/>
+               <gmd:distributorTransferOptions/>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>derived from that other dataset</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>Manually combed through to find obvious junk data values, changed value to 999999999999999999999</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:rationale>
+                        <gco:CharacterString>It had to be done!</gco:CharacterString>
+                     </gmd:rationale>
+                     <gmd:dateTime>
+                        <gco:DateTime>2011-08-23T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName/>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>Data Manager</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone/>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Room 110</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>AK</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99701</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource/>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="009"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName/>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName/>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:voice>
+                                          <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Anchorage</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>AK</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99503</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function/>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="010"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>changed junk data value to 9999</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:rationale>
+                        <gco:CharacterString>Way too many 9's that first time.</gco:CharacterString>
+                     </gmd:rationale>
+                     <gmd:dateTime>
+                        <gco:DateTime>2013-08-28T00:00:00</gco:DateTime>
+                     </gmd:dateTime>
+                     <gmd:processor>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName>
+                              <gco:CharacterString>Chris Turner</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Axiom Consulting &amp; Design</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>Data Librarian</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:phone>
+                                    <gmd:CI_Telephone>
+                                       <gmd:voice>
+                                          <gco:CharacterString>mobile: 907-555-1234</gco:CharacterString>
+                                       </gmd:voice>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>office: 907-555-6543</gco:CharacterString>
+                                       </gmd:facsimile>
+                                       <gmd:facsimile>
+                                          <gco:CharacterString>alt: 1-800-598-5571</gco:CharacterString>
+                                       </gmd:facsimile>
+                                    </gmd:CI_Telephone>
+                                 </gmd:phone>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>523 W 8th Ave</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Suite 104</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Anchorage</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>Alaska</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>99501</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>USA</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>chris@axiomalaska.com</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>theotherchris@axiomalaska.com</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://axiomalaska.com</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Axiom Consulting &amp; Design</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Website for Axiom Consulting and Design</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function/>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                                 <gmd:contactInstructions/>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="009"/>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:processor>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>For this work, a mesoscale numerical model (WRF) will be initialized using the National Centers for Environmental Prediction (NCEP) North American Regional Reanalysis (NARR) output at 32-km resolution.  The NARR data provides the “best-guess” analysis of atmospheric conditions for use in historical studies.  The NARR domain covers all of North and Central America, much of the northeastern Pacific and northern Atlantic Oceans, including Alaska and Hawaii.  Ten years of NARR data will be used (1 Jan 2000 – 31 Dec 2009).</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Very High-Resolution Dynamic Downscaling of Regional Climate and Hydrology</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2000-01-21</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002"/>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:edition>
+                              <gco:CharacterString>version 1.2.0</gco:CharacterString>
+                           </gmd:edition>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:individualName>
+                                    <gco:CharacterString>Josh Bradley</gco:CharacterString>
+                                 </gmd:individualName>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:positionName>
+                                    <gco:CharacterString>Data Manager</gco:CharacterString>
+                                 </gmd:positionName>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:phone>
+                                          <gmd:CI_Telephone>
+                                             <gmd:voice>
+                                                <gco:CharacterString>office: +1 907.455.1847</gco:CharacterString>
+                                             </gmd:voice>
+                                             <gmd:voice>
+                                                <gco:CharacterString>mobile: 907-223-8752</gco:CharacterString>
+                                             </gmd:voice>
+                                             <gmd:voice>
+                                                <gco:CharacterString>808-555-1212</gco:CharacterString>
+                                             </gmd:voice>
+                                             <gmd:facsimile>
+                                                <gco:CharacterString>mobile: 907-230-4350</gco:CharacterString>
+                                             </gmd:facsimile>
+                                             <gmd:facsimile>
+                                                <gco:CharacterString>alternate: 907-999-9999</gco:CharacterString>
+                                             </gmd:facsimile>
+                                          </gmd:CI_Telephone>
+                                       </gmd:phone>
+                                       <gmd:address>
+                                          <gmd:CI_Address>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>Room 110</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:city>
+                                                <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                             </gmd:city>
+                                             <gmd:administrativeArea>
+                                                <gco:CharacterString>AK</gco:CharacterString>
+                                             </gmd:administrativeArea>
+                                             <gmd:postalCode>
+                                                <gco:CharacterString>99701</gco:CharacterString>
+                                             </gmd:postalCode>
+                                             <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                             </gmd:country>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                          </gmd:CI_Address>
+                                       </gmd:address>
+                                       <gmd:onlineResource>
+                                          <gmd:CI_OnlineResource>
+                                             <gmd:linkage>
+                                                <gmd:URL>http://arcticlcc.org</gmd:URL>
+                                             </gmd:linkage>
+                                             <gmd:name>
+                                                <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                                             </gmd:name>
+                                             <gmd:description>
+                                                <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                             </gmd:description>
+                                             <gmd:function/>
+                                          </gmd:CI_OnlineResource>
+                                       </gmd:onlineResource>
+                                       <gmd:contactInstructions/>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006"/>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:ISBN>
+                              <gco:CharacterString>HB12365.214</gco:CharacterString>
+                           </gmd:ISBN>
+                           <gmd:ISSN>
+                              <gco:CharacterString>0ab4-dd983c01</gco:CharacterString>
+                           </gmd:ISSN>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                     <gmd:sourceStep>
+                        <gmd:LI_ProcessStep>
+                           <gmd:description>
+                              <gco:CharacterString>The NARR data will be used to initialize the WRF model.  The NARR data cannot be used by the WRF directly.  Instead, WRF-required initial data and lateral data will be created from the NARR data using the WRF Preprocessing System (WPS) utilities.  In addition, the 32-km grid resolution of the NARR data will be objectively analyzed to the WRF 4-km grid. </gco:CharacterString>
+                           </gmd:description>
+                           <gmd:rationale>
+                              <gco:CharacterString>It had to be done!</gco:CharacterString>
+                           </gmd:rationale>
+                           <gmd:dateTime>
+                              <gco:DateTime>2013-08-13T00:00:00</gco:DateTime>
+                           </gmd:dateTime>
+                           <gmd:processor>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:individualName/>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:positionName>
+                                    <gco:CharacterString>Data Manager</gco:CharacterString>
+                                 </gmd:positionName>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:phone/>
+                                       <gmd:address>
+                                          <gmd:CI_Address>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>Room 110</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:city>
+                                                <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                             </gmd:city>
+                                             <gmd:administrativeArea>
+                                                <gco:CharacterString>AK</gco:CharacterString>
+                                             </gmd:administrativeArea>
+                                             <gmd:postalCode>
+                                                <gco:CharacterString>99701</gco:CharacterString>
+                                             </gmd:postalCode>
+                                             <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                             </gmd:country>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                          </gmd:CI_Address>
+                                       </gmd:address>
+                                       <gmd:onlineResource/>
+                                       <gmd:contactInstructions/>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="009"/>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:processor>
+                        </gmd:LI_ProcessStep>
+                     </gmd:sourceStep>
+                     <gmd:sourceStep>
+                        <gmd:LI_ProcessStep>
+                           <gmd:description>
+                              <gco:CharacterString>The Hawaii Forest Bird Survey Vegetation Database includes data for over 40,400 vegetation plots that were sampled on the island of Hawaii in 1977.  This database records with cover data that can be used for modeling their distribution abundance.</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:rationale>
+                              <gco:CharacterString>It had to be done!</gco:CharacterString>
+                           </gmd:rationale>
+                           <gmd:dateTime>
+                              <gco:DateTime>2013-08-13T00:00:00</gco:DateTime>
+                           </gmd:dateTime>
+                           <gmd:processor>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:individualName/>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:positionName>
+                                    <gco:CharacterString>Data Manager</gco:CharacterString>
+                                 </gmd:positionName>
+                                 <gmd:contactInfo>
+                                    <gmd:CI_Contact>
+                                       <gmd:phone/>
+                                       <gmd:address>
+                                          <gmd:CI_Address>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>101 12th Avenue</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:deliveryPoint>
+                                                <gco:CharacterString>Room 110</gco:CharacterString>
+                                             </gmd:deliveryPoint>
+                                             <gmd:city>
+                                                <gco:CharacterString>Fairbanks</gco:CharacterString>
+                                             </gmd:city>
+                                             <gmd:administrativeArea>
+                                                <gco:CharacterString>AK</gco:CharacterString>
+                                             </gmd:administrativeArea>
+                                             <gmd:postalCode>
+                                                <gco:CharacterString>99701</gco:CharacterString>
+                                             </gmd:postalCode>
+                                             <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                             </gmd:country>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>joshua_bradley@fws.gov</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                             <gmd:electronicMailAddress>
+                                                <gco:CharacterString>jbradley@arcticlcc.org</gco:CharacterString>
+                                             </gmd:electronicMailAddress>
+                                          </gmd:CI_Address>
+                                       </gmd:address>
+                                       <gmd:onlineResource/>
+                                       <gmd:contactInstructions/>
+                                    </gmd:CI_Contact>
+                                 </gmd:contactInfo>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="009"/>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:processor>
+                        </gmd:LI_ProcessStep>
+                     </gmd:sourceStep>
+                  </gmd:LI_Source>
+               </gmd:source>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>We got this dataset from those guys in Fairbanks.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation/>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This is that other dataset that you might have heard about.</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep/>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>This dataset came from somewhere. It was collected by so and so.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Example_dataset_20111009_turner_v1-12.csv</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2011-10-09</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType gco:nilReason="missing"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:edition/>
+                           <gmd:citedResponsibleParty/>
+                           <gmd:ISBN/>
+                           <gmd:ISSN/>
+                        </gmd:CI_Citation>
+                     </gmd:sourceCitation>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series" codeSpace="006"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This series is made up of those datasets.</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep/>
+               <gmd:source/>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This another ctd datas from the GAK1 location.</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep>
+                  <gmd:LI_ProcessStep>
+                     <gmd:description>
+                        <gco:CharacterString>This is how this dataset was processed.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:rationale/>
+                     <gmd:dateTime/>
+                     <gmd:processor/>
+                  </gmd:LI_ProcessStep>
+               </gmd:processStep>
+               <gmd:source/>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>This series is made up of those datasets.</gco:CharacterString>
+               </gmd:statement>
+               <gmd:processStep/>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:description>
+                        <gco:CharacterString>We got this dataset from those guys in Fairbanks.</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:sourceCitation/>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="annually" codeSpace="008"/>
+         </gmd:maintenanceAndUpdateFrequency>
+         <gmd:maintenanceNote>
+            <gco:CharacterString>metadata is updated each year after data from that year has been added to the dataset</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:maintenanceNote>
+            <gco:CharacterString>Oh, and this is a second note.</gco:CharacterString>
+         </gmd:maintenanceNote>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName>
+                  <gco:CharacterString>Chris Turner</gco:CharacterString>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Axiom Consulting &amp; Design</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>Data Librarian</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>mobile: 907-555-1234</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>office: 907-555-6543</gco:CharacterString>
+                           </gmd:facsimile>
+                           <gmd:facsimile>
+                              <gco:CharacterString>alt: 1-800-598-5571</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>523 W 8th Ave</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Suite 104</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Anchorage</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Alaska</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>99501</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>USA</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>chris@axiomalaska.com</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>theotherchris@axiomalaska.com</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://axiomalaska.com</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:name>
+                              <gco:CharacterString>Axiom Consulting &amp; Design</gco:CharacterString>
+                           </gmd:name>
+                           <gmd:description>
+                              <gco:CharacterString>Website for Axiom Consulting and Design</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:function/>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                     <gmd:contactInstructions/>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="002"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+         <gmd:contact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName/>
+               <gmd:organisationName>
+                  <gco:CharacterString>Arctic Landscape Conservation Cooperative</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName/>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>office: 907-786-3605</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:voice>
+                              <gco:CharacterString>mobile: 907-306-1895</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>office: 907-786-3592</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>1011 E. Tudor Rd</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Anchorage</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>AK</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>99503</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>USA</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>staff@arcticlcc.org</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://arcticlcc.org</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:name>
+                              <gco:CharacterString>Arctic LCC website</gco:CharacterString>
+                           </gmd:name>
+                           <gmd:description>
+                              <gco:CharacterString>Website for the Arctic Landscape Conservation Cooperative</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:function/>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                     <gmd:contactInstructions/>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner" codeSpace="003"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:contact>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+</gmi:MI_Metadata>
